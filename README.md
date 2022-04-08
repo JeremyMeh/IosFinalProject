@@ -100,10 +100,21 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+| Property  | Type               | Description                                               |
+|-----------|:------------------:| ---------------------------------------------------------:|
+| UserId    | Number             | Unique Id for each user                                   |
+| Quizes    | Array of Quiz      | Holds the Quizes each user has saved unique to the UserId |
+| Quiz      | Array of questions | Quiz holds all the questions                              |
+| Question  | Array of arrays    | Each Question holds its own answers and quiz question     |
+| Link      | String             | This is a link that the user can share their quiz with    |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
+- Create Quiz
+    - (Create/Quiz) Creates a quiz after the user enters the quiz information
+    - (Get/Quiz) Gets an auto generated quiz based on inputed request
+- Saved Quiz
+    - (Get/Quiz) Gets the saved quizes that the user can share or retake
+- Share Quiz
+    - (Get/Link) Gets the link to the quiz that was saved
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
