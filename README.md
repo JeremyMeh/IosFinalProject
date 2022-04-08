@@ -102,7 +102,7 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 ## Schema 
 ### Models
 | Property  | Type               | Description                                               |
-|-----------|:------------------:| ---------------------------------------------------------:|
+|-----------|:------------------:| --------------------------------------------------------- |
 | UserId    | Number             | Unique Id for each user                                   |
 | Quizes    | Array of Quiz      | Holds the Quizes each user has saved unique to the UserId |
 | Quiz      | Array of questions | Quiz holds all the questions                              |
