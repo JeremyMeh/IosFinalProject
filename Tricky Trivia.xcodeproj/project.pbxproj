@@ -10,13 +10,14 @@
 		0ECEF703FA720A8143232B42 /* Pods_Tricky_Trivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F96E454404A1E5789A6D75C3 /* Pods_Tricky_Trivia.framework */; };
 		5C15698F2803DE840060E495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C15698E2803DE840060E495 /* AppDelegate.swift */; };
 		5C1569912803DE840060E495 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1569902803DE840060E495 /* SceneDelegate.swift */; };
-		5C1569932803DE840060E495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1569922803DE840060E495 /* ViewController.swift */; };
 		5C1569962803DE840060E495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1569942803DE840060E495 /* Main.storyboard */; };
 		5C1569982803DE870060E495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1569972803DE870060E495 /* Assets.xcassets */; };
 		5C15699B2803DE870060E495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1569992803DE870060E495 /* LaunchScreen.storyboard */; };
 		5C1569A62803DE870060E495 /* Tricky_TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1569A52803DE870060E495 /* Tricky_TriviaTests.swift */; };
 		5C1569B02803DE870060E495 /* Tricky_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1569AF2803DE870060E495 /* Tricky_TriviaUITests.swift */; };
 		5C1569B22803DE870060E495 /* Tricky_TriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1569B12803DE870060E495 /* Tricky_TriviaUITestsLaunchTests.swift */; };
+		5C1569BF2803E7E40060E495 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1569BE2803E7E40060E495 /* LoginViewController.swift */; };
+		5C1569C12803E8120060E495 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1569C02803E8120060E495 /* HomeViewController.swift */; };
 		90A09207C811D7BF37453707 /* Pods_Tricky_Trivia_Tricky_TriviaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23E2DFD5CF43A530D840026 /* Pods_Tricky_Trivia_Tricky_TriviaUITests.framework */; };
 		E79255A0750BEDC3336B949B /* Pods_Tricky_TriviaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9396993C2BDF8C162B95FAA4 /* Pods_Tricky_TriviaTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +47,6 @@
 		5C15698B2803DE840060E495 /* Tricky Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tricky Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C15698E2803DE840060E495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C1569902803DE840060E495 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C1569922803DE840060E495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C1569952803DE840060E495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C1569972803DE870060E495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C15699A2803DE870060E495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +56,8 @@
 		5C1569AB2803DE870060E495 /* Tricky TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tricky TriviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1569AF2803DE870060E495 /* Tricky_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tricky_TriviaUITests.swift; sourceTree = "<group>"; };
 		5C1569B12803DE870060E495 /* Tricky_TriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tricky_TriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C1569BE2803E7E40060E495 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C1569C02803E8120060E495 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9396993C2BDF8C162B95FAA4 /* Pods_Tricky_TriviaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tricky_TriviaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C095C96FDC61B8F0CD2CAF7C /* Pods-Tricky Trivia-Tricky TriviaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tricky Trivia-Tricky TriviaUITests.release.xcconfig"; path = "Target Support Files/Pods-Tricky Trivia-Tricky TriviaUITests/Pods-Tricky Trivia-Tricky TriviaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E23E2DFD5CF43A530D840026 /* Pods_Tricky_Trivia_Tricky_TriviaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tricky_Trivia_Tricky_TriviaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +103,6 @@
 				E99C7FB12C0CD532178CF330 /* Pods-Tricky TriviaTests.debug.xcconfig */,
 				4892163EF6922EE409887953 /* Pods-Tricky TriviaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,11 +133,12 @@
 			children = (
 				5C15698E2803DE840060E495 /* AppDelegate.swift */,
 				5C1569902803DE840060E495 /* SceneDelegate.swift */,
-				5C1569922803DE840060E495 /* ViewController.swift */,
 				5C1569942803DE840060E495 /* Main.storyboard */,
 				5C1569972803DE870060E495 /* Assets.xcassets */,
 				5C1569992803DE870060E495 /* LaunchScreen.storyboard */,
 				5C15699C2803DE870060E495 /* Info.plist */,
+				5C1569BE2803E7E40060E495 /* LoginViewController.swift */,
+				5C1569C02803E8120060E495 /* HomeViewController.swift */,
 			);
 			path = "Tricky Trivia";
 			sourceTree = "<group>";
@@ -407,9 +409,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1569932803DE840060E495 /* ViewController.swift in Sources */,
+				5C1569BF2803E7E40060E495 /* LoginViewController.swift in Sources */,
 				5C15698F2803DE840060E495 /* AppDelegate.swift in Sources */,
 				5C1569912803DE840060E495 /* SceneDelegate.swift in Sources */,
+				5C1569C12803E8120060E495 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
