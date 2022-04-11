@@ -1,0 +1,6 @@
+framework module Pods_Tricky_Trivia_Tricky_TriviaUITests {
+  umbrella header "Pods-Tricky Trivia-Tricky TriviaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
