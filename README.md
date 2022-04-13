@@ -41,9 +41,9 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 * [ ] Account Page
 * [ ] Go through past saved quiz page
 * [x] Create account
-    * <img src="https://i.imgur.com/VjL01Yf.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
+    <img src="https://i.imgur.com/VjL01Yf.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
 * [x] Login
-    * <img src="https://i.imgur.com/104D7tK.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
+    <img src="https://i.imgur.com/104D7tK.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
 * [ ] Take the quiz page
 * [ ] results page
 * [x] Set up Backend (Parse)
