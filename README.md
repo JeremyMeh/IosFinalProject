@@ -45,7 +45,7 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 * [ ] Take the quiz page
 * [ ] Results page
 * [x] Set up Backend (Parse)
-* [ ] Home Page
+* [x] Home Page
 
 **Optional Nice-to-have Stories**
 
