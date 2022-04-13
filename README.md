@@ -34,27 +34,28 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 
 **Required Must-have Stories**
 
-- [ ] Create Quiz Section
-- [ ] Save functionality
-- [ ] Share Functionality
-- [ ] Api Call to get the Auto generated quiz
-- [ ] Account Page
-- [ ] Go through past saved quiz page
-- [x] Create account
-  <img src="https://i.imgur.com/VjL01Yf.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
-- [x] Login
-    <img src="https://i.imgur.com/104D7tK.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
-- [ ] Take the quiz page
-- [ ] results page
-- [x] Set up Backend (Parse)
+* [ ] Create Quiz Section
+* [ ] Save functionality
+* [ ] Share Functionality
+* [ ] Api Call to get the Auto generated quiz
+* [ ] Account Page
+* [ ] Go through past saved quiz page
+* [x] Create account
+* [x] Login
+* [ ] Take the quiz page
+* [ ] Results page
+* [x] Set up Backend (Parse)
+* [ ] Home Page
 
 **Optional Nice-to-have Stories**
 
 * N/A
 
 **Video Walkthrough**
-* Create Account
-* Login
+- Create Account
+<img src="https://i.imgur.com/VjL01Yf.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
+- Login
+<img src="https://i.imgur.com/104D7tK.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
 
 ### 2. Screen Archetypes
 
