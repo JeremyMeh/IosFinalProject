@@ -52,9 +52,10 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 * N/A
 
 **Video Walkthrough**
-- Create Account
+* Create Account
 <img src="https://i.imgur.com/VjL01Yf.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
-- Login
+
+* Login
 <img src="https://i.imgur.com/104D7tK.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
 
 ### 2. Screen Archetypes
