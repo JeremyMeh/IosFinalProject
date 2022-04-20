@@ -51,7 +51,8 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 
 * N/A
 
-**Video Walkthrough**
+***Video Walkthrough***
+**Week 1**
 * Create Account
 <img src="https://i.imgur.com/VjL01Yf.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
 
@@ -60,6 +61,15 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 
 * Home Page (Layout)
 <img src="https://i.imgur.com/tUK3tDK.png" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
+
+**Week 2**
+
+* Auto Generate Quiz Page & Account Page
+<img src="https://i.imgur.com/ssjdyRg.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
+
+* Create Quiz Cell Layout
+<img src="https://i.imgur.com/RTT49sa.png" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
+
 
 
 ### 2. Screen Archetypes
