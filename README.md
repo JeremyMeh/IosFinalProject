@@ -38,7 +38,8 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 * [ ] Save functionality
 * [ ] Share Functionality
 * [ ] Api Call to get the Auto generated quiz
-* [ ] Account Page
+* [x] Auto Generated Page (gathers info for API call)
+* [x] Account Page
 * [ ] Go through past saved quiz page
 * [x] Create account
 * [x] Login
