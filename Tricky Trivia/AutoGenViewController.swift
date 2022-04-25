@@ -10,9 +10,13 @@ import UIKit
 class AutoGenViewController: UIViewController {
     
     var name = ""
-    var categories = ""
     var difficulty = ""
-
+    var randomNum = Int.random(in: 9...32)
+    var apiUrlBegin = "https://opentdb.com/api.php?amount=10&difficulty="
+    var apiUrlEnd = "&type=multiple"
+    @IBOutlet weak var difficultyMeter: UISegmentedControl!
+    @IBOutlet weak var quizName: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,8 +25,10 @@ class AutoGenViewController: UIViewController {
     
     @IBAction func onAutoBack(_ sender: Any) {
         name = ""
-        categories = ""
         difficulty = ""
+    }
+    @IBAction func onApiCallCreate(_ sender: Any) {
+        self.performSegue(withIdentifier: "apiQuiz", sender: nil)
     }
     
     /*
