@@ -15,7 +15,6 @@ class HomeViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    // Hi this is Julio's file
     
     @IBAction func onLogoutClick(_ sender: Any) {
         PFUser.logOut()
