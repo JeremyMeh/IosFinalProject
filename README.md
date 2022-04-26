@@ -37,13 +37,14 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 * [ ] Create Quiz Section
 * [ ] Save functionality
 * [ ] Share Functionality
-* [ ] Api Call to get the Auto generated quiz
+* [x] Api Call to get the Auto generated quiz (set up but is still needs work)
 * [x] Auto Generated Page (gathers info for API call)
 * [x] Account Page
 * [ ] Go through past saved quiz page
 * [x] Create account
 * [x] Login
-* [ ] Take the quiz page
+* [x] Auto Generated Take the quiz page
+* [ ] Handmade Take the quiz page
 * [ ] Results page
 * [x] Set up Backend (Parse)
 * [x] Home Page
@@ -71,6 +72,14 @@ A Trivia game app that allows you to auto generate trivia quizzes or be able to 
 * Create Quiz Cell Layout
 <img src="https://i.imgur.com/RTT49sa.png" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
 
+**Week 3**
+
+* Auto Generate Quiz Api Call
+<img src="https://i.imgur.com/hy4YXMg.png" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
+
+* Take the Auto Generated Quiz Page (still needs to have the api fixed)
+<img src="https://i.imgur.com/2Fwl9mF.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
+<img src="https://i.imgur.com/pcRcNa9.gif" title='Video Walkthrough' height='480' alt='Video Walkthrough' />
 
 
 ### 2. Screen Archetypes
