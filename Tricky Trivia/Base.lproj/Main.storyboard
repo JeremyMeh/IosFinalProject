@@ -682,6 +682,11 @@
                                 <segue destination="Q8n-ZG-t3G" kind="unwind" unwindAction="unwindToRootViewControllerWithSegue:" id="6df-gu-beO"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Submit" id="RvK-xa-H6g">
+                            <connections>
+                                <action selector="onSubmit:" destination="Q8n-ZG-t3G" id="OcH-cS-I5O"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cSa-M1-KqH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

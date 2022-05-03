@@ -32,6 +32,9 @@ class AutoGenViewController: UIViewController {
         self.performSegue(withIdentifier: "apiQuiz", sender: nil)
     }
     
+    @IBAction func onSubmit(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

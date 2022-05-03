@@ -14,6 +14,8 @@ class AutoGenTakeViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -34,6 +36,20 @@ class AutoGenTakeViewController: UITableViewController {
              }
         }
         task.resume()
+        self.tableView.reloadData()
+        let quizzes = PFObject(className: "Quizzes")
+        
+        quizzes["author"] = PFUser.current()!
+        quizzes["name"] = "Quiz"
+        quizzes["questions"] = quiz
+        
+        quizzes.saveInBackground { (success, error) in
+            if success {
+                print("Saved!")
+            } else {
+                print("Error!")
+            }
+        }
     }
 
     // MARK: - Table view data source
@@ -51,25 +67,30 @@ class AutoGenTakeViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-//        let question = quiz[indexPath.section]
-//        let qText = question["question"] as! String
-//        var answerChoices = [String]()
-//        var incorrectAns = [[String]()]
-//        incorrectAns.append(question["incorrect_answers"] as! [String])
-//        answerChoices.append(question["correct_answer"] as? String ?? "")
-//        answerChoices.append(contentsOf: incorrectAns[0])
-//        answerChoices.append(contentsOf: incorrectAns[1])
-//        answerChoices.append(contentsOf: incorrectAns[2])
-//
+        let question = quiz[indexPath.item]
+        let qText = question["question"] as! String
+        var answerChoices = [String]()
+        var incorrectAns = [[String]()]
+        incorrectAns.append(question["incorrect_answers"] as! [String])
+        answerChoices.append(question["correct_answer"] as? String ?? "")
+        answerChoices.append(contentsOf: incorrectAns[0])
+        answerChoices.append(contentsOf: incorrectAns[1])
+
         let cell = tableView.dequeueReusableCell(withIdentifier: "ApiQuizCellTableViewCell") as! ApiQuizCellTableViewCell
-//
-//        cell.questionText.text = qText
-//        cell.option1.text = answerChoices[0]
-//        cell.option2.text = answerChoices[1]
-//        cell.option3.text = answerChoices[2]
-//        cell.option4.text = answerChoices[3]
+
+        cell.questionText.text = qText
+        cell.option1.text = answerChoices[0]
+        cell.option2.text = answerChoices[1]
+        cell.option3.text = answerChoices[2]
+        cell.option4.text = answerChoices[3]
+
         
-       return cell
+
+        return cell
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
 
     /*
